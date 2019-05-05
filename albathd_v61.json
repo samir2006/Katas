@@ -1,0 +1,174 @@
+﻿[
+ 
+  
+{
+    "title":"آخــــر الأخـــبـار",
+    "drawable":"ic_news",
+    "submenu":"",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"",
+        "provider":"rss",
+        "arguments":["http://hihi2.com/feed"]
+      }
+    ]
+  },
+
+
+{  
+      "title":"مباريات اليوم",
+      "drawable":"ic_action_favoritea",
+      "submenu":"",
+      "iap":false,
+      "tabs":[  
+         {  
+            "title":"آخر الأخبار",
+            "provider":"rss",
+            "arguments":[  
+               "http://hihi2.com/feed"
+            ]
+         },
+        
+         {  
+            "title":"مباريـات اليـوم",
+            "provider":"worldcup",
+            "arguments":[  
+               "http://albathd.com/admin/api/todayMatches"
+            ]
+         }
+      ]
+   },
+
+
+{  
+      "title":"مباريات الأمس",
+      "drawable":"ic_action_favoritea",
+      "submenu":"",
+      "iap":false,
+      "tabs":[  
+         {  
+            "title":"آخر الأخبار",
+            "provider":"rss",
+            "arguments":[  
+               "http://hihi2.com/feed"
+            ]
+         },
+         {  
+            "title":"مباريات الأمس",
+            "provider":"worldcup",
+            "arguments":[  
+               "http://albathd.com/admin/api/yesterdayMatches"
+            ]
+         }
+      ]
+   },
+
+{  
+      "title":"مباريات الغد",
+      "drawable":"ic_action_favoritea",
+      "submenu":"",
+      "iap":false,
+      "tabs":[  
+         {  
+            "title":"آخر الأخبار",
+            "provider":"rss",
+            "arguments":[  
+               "http://hihi2.com/feed"
+            ]
+         },
+        
+         {  
+            "title":"مباريات الغد",
+            "provider":"worldcup",
+            "arguments":[  
+               "http://albathd.com/admin/api/tomorrowMatches"
+            ]
+         }
+      ]
+   },
+
+  
+ 
+  
+
+
+ 
+    
+{
+    "title":"إدعمنا بتـقـيـيم التطبيق",
+    "drawable":"ic_action_favorite",
+    "submenu":"أقسام إضافية",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"",
+        "provider":"custom",
+        "arguments":[
+          "market://details?id=com.sportmaniaapps.matchlivehd", "url"
+        ]
+      }
+    ]
+  },
+
+
+{
+    "title":"مـوقعـنـا الرسمـي",
+    "drawable":"ic_action_share_dark",
+    "submenu":"",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"",
+        "provider":"custom",
+        "arguments":[
+          "market://details?id=com.sportmaniaapps.matchlivehd", "url"
+        ]
+      }
+    ]
+  },
+
+
+ 
+
+
+
+
+ 
+  
+  
+  
+  
+ 
+  
+  
+ 
+
+ 
+  
+
+
+ 
+   
+  
+  
+  
+   
+  
+ 
+  {
+    "title":"إعــدادات",
+    "drawable":"ic_action_settings",
+    "submenu":"أقسام إضافية",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"",
+        "provider":"custom",
+        "arguments":[
+          "com.mobarayat.albat.SettingsFragment", "fragment"
+        ]
+      }
+    ]
+  }
+]
